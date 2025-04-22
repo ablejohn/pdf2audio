@@ -1,0 +1,38 @@
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8e1e9 0%, #e1f5f2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4a3b6a;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b5b95;
+  padding: 1rem 0;
+}
