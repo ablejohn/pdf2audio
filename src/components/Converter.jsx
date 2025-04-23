@@ -45,7 +45,7 @@ function Converter() {
   const fetchAudioFile = async (text, lang) => {
     try {
       setIsLoading(true);
-      const res = await fetch("http://localhost:3000/convert", {
+      const res = await fetch("https://pdf2audioapi.onrender.com/convert", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
